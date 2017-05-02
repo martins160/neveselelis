@@ -65,8 +65,21 @@
 
 
 <script>
+    //FUNÇÃO DE MENU MOBILE
     $(document).ready(function() {
         $('.nav').slideAndSwipe();
+    });
+
+
+    //FUNÇÃO FIXAR MENU
+    $(function(){
+        $(window).scroll(function(){            
+            if($(this).scrollTop() > $('.conteudo').offset().top){
+                $('.menu').addClass('menu-fixed');
+            }else{
+                $('.menu').removeClass('menu-fixed');
+            }
+        });
     });
 </script>
 

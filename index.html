@@ -73,6 +73,12 @@
 
     //FUNÇÃO FIXAR MENU
     $(function(){
+        if($(window).scrollTop() > $('.conteudo').offset().top){
+                $('.menu').addClass('menu-fixed');
+            }else{
+                $('.menu').removeClass('menu-fixed');
+            }
+
         $(window).scroll(function(){            
             if($(this).scrollTop() > $('.conteudo').offset().top){
                 $('.menu').addClass('menu-fixed');

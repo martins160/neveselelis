@@ -1,0 +1,33 @@
+.footer{
+	width: 100%;
+	background-color: #14293e;
+	padding: 10px 0;
+}
+
+.footer-inc{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+}
+
+
+
+
+
+
+/*RESPONSIVO 960*********************************************************************************/
+@media(min-width:960px){
+
+.footer-reg{	
+	text-align: left;
+}
+
+.footer-inc{
+	font-size: 16px;	
+	text-align: left;
+}
+
+}
+
+

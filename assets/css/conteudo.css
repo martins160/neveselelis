@@ -198,6 +198,17 @@ transition: all 0.2s ease;
 	color: #3a579b;
 }
 
+.endereco a{
+    color: #333 !important;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.endereco a:hover{
+	text-decoration: none;
+	color: #14293e;
+}
+
 
 
 /*RESPONSIVO 500*********************************************************************************/
@@ -257,6 +268,11 @@ transition: all 0.2s ease;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;	
+}
+
+.endereco a{    
+    font-size: 20px; 
+    color: #333;  
 }
 
 

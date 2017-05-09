@@ -35,8 +35,8 @@
 
 
 .sobre{
-	background-image: url(../images/b4-mobile.jpg) !important;
-	background-position: center top;
+	background-image: url(../images/b4-mobile.jpg);
+	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;    
 }

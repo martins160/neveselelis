@@ -193,7 +193,10 @@ transition: all 0.2s ease;
 	margin: 20px 0 0 0;
 }
 
-.face a{
+
+
+.fa-facebook{
+	font-size: 30px !important;
 	font-size: 30px;
 	color: #3a579b;
 }
@@ -395,9 +398,7 @@ transition: all 0.2s ease;
     font-weight: 300;
 }
 
-.fa-facebook{
-	font-size: 30px !important;
-}
+
 
 
 

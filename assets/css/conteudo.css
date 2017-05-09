@@ -132,25 +132,40 @@ transition: all 0.2s ease;
 
 
 
-.contato{
-	padding: 40px 0;
 
-	background-image: url(../images/bgheader.png);
-    background-repeat: repeat;    
-    background-attachment: fixed;
+
+.video{
+	display: none;
 }
+
+.contato{	
+	width: 100%;
+	height:880px;
+	overflow: hidden;
+	position: relative;
+	background-image: url(../images/bgheader.png);
+	background-repeat: repeat;
+}
+
+.contato-cont{
+	position: absolute;
+	top: 0;	
+	width: 100%;
+	padding: 50px 0;	
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+
+
 
 .contato-titu{
 	font-size: 30px;
-	color: #000;
+	color: #fff;
 	font-weight: 800;
 	text-align: center;
 	margin: 0 0 30px 0;
 }
-
-
-
-
 
 
 .enviar-form{	
@@ -173,19 +188,14 @@ transition: all 0.2s ease;
 }
 
 
-.contato-cont{
-	margin: 60px 0 0 0;
-}
 
-.contato-cont strong{
-	font-size: 20px;	
-}
 
 .cont-txt{
 	font-size: 25px;
 	margin: 0 0 20px 0;
 	display: block;
 	font-weight: 300;
+	color: #fff;
 }
 
 .face{
@@ -198,7 +208,7 @@ transition: all 0.2s ease;
 .fa-facebook{
 	font-size: 30px !important;
 	font-size: 30px;
-	color: #3a579b;
+	color: #fff;
 }
 
 .fa-facebook:hover{
@@ -210,7 +220,7 @@ transition: all 0.2s ease;
 
 
 .endereco a{
-    color: #333 !important;
+    color: #fff !important;
     font-size: 15px;
     font-weight: 300;
 }
@@ -218,6 +228,10 @@ transition: all 0.2s ease;
 .endereco a:hover{
 	text-decoration: none;
 	color: #14293e;
+}
+
+.endereco strong{
+	color: #fff;
 }
 
 
@@ -345,6 +359,7 @@ transition: all 0.2s ease;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed; 
+	background-position: top top;
 }
 
 
@@ -364,9 +379,48 @@ transition: all 0.2s ease;
 	margin: 20px auto 10px auto;
 }
 
-.contato{
-	padding: 50px 0 70px 0;
+
+
+
+
+.contato{	
+	width: 100%;
+	height: 550px;
+	overflow: hidden;
+	position: relative;
+	background-image: none;
 }
+
+
+
+.video{
+	display: block;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;	
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.contato-cont{
+	position: absolute;
+	top: 0;	
+	width: 100%;
+	padding: 50px 0;	
+	/*background-color: rgba(0,0,0,0.6);*/
+	background-image: url(../images/bg-contact.png);
+	background-repeat: repeat;
+}
+
+
+
+
+
+
+
 
 .contato-titu{
 	font-size: 50px;
@@ -377,11 +431,7 @@ transition: all 0.2s ease;
 	padding: 60px 0 0 0;
 }
 
-.contato-cont {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
+
 
 .endereco{
 	text-align: left;
@@ -400,11 +450,6 @@ transition: all 0.2s ease;
 	font-size: 23px;
 }
 
-.contato-cont a{
-    color: #333;
-    font-size: 20px;
-    font-weight: 300;
-}
 
 
 

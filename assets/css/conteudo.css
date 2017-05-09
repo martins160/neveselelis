@@ -5,6 +5,10 @@
 .areas-de-atuacao{
 	background-color: #2a363f;	
 	padding: 40px 0;
+
+	background-image: url(../images/bgatuacao.png);
+    background-repeat: repeat;    
+
 }
 
 .atuacao{

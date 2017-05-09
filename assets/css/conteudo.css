@@ -70,14 +70,14 @@
 
 .veja-mais a{	
 	width: 200px !important;
-	background: none !important;
-	color: #fff !important;
+	background: #fff !important;
+	color: #000 !important;
 	font-weight: 300 !important;
-	border: 1px solid rgba(212,212,212,0.2) !important;
+	border: none !important;
 }
 
 .veja-mais a:hover{
-	background: rgba(212,212,212,0.1) !important;
+	background: rgba(255,255,255,0.8) !important;
 }
 
 

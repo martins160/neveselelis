@@ -85,8 +85,8 @@
 
 
 .equipe{
-	background-image: url(../images/b5-mobile.jpg);
-	background-position: center;
+	background-image: url(../images/b5.jpg);
+	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed; 
 }

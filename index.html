@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>NEVES & LELEIS</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	
+
+
 
 	<!--ESTILO DA PAGINA-->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -15,14 +19,38 @@
 
 	<!--ESTILO FONTE AWESOME-->
 	<link rel="stylesheet" href="assets/css/font-awesome.css">
+
+   
+
+
+    <!--ESTILO IMAGEM HOVER PLUS-->
+    <link rel="stylesheet" href="assets/css/imagesHover.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+
+    <link rel="stylesheet" href="assets/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+
+
+
 </head>
 <body>
 
 
 <header class="header">
-	<div class="container-fluid">
+	<div class="container-fluid header-cont">
 		<a href="index.html">
-  			<img src="assets/images/logo.jpg" class="img-responsive center-block logo">
+  			<!--<img src="assets/images/logo.jpg" class="img-responsive center-block logo wow fadeInUp">-->
+
+            <img src="assets/images/logo/01.png" class="image1 wow fadeInUp img-responsive">
+            <img src="assets/images/logo/02.png" class="image2 wow fadeInDown img-responsive">
+            <img src="assets/images/logo/03.png" class="image3 wow fadeInLeft img-responsive">
+
+            <img src="assets/images/logo/04.png" class="image4 wow slideInLeft img-responsive">
+            <img src="assets/images/logo/05.png" class="image5 wow slideInRight img-responsive">
+            <img src="assets/images/logo/06.png" class="image6 wow fadeInUp img-responsive">
+
   		</a>
 	</div>
 
@@ -35,24 +63,279 @@
         	<a href="#">ESPECIALIDADES</a>
         	<a href="#">EQUIPE</a>
         	<a href="#">NOTICIAS</a>        	
-        	<a href="#">CONTATO</a>
+        	<a href="#">CONTATO</a> 
         </div>        
     </nav>
 
     <div class="menu">      	    
         <a href="#" class="ssm-toggle-nav" title="Menu Principal"><i class="fa fa-bars"></i>MENU PRINCIPAL</a>    
     </nav>
+
 </header>
 
 
+<div class="mainmenu wow fadeInUp">
+    <ul class="mainmenu-flex">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">A NEVES & LELIS</a></li>
+        <li><a href="#">ESPECIALIDADES</a></li>
+        <li><a href="#">EQUIPE</a></li>
+        <li><a href="#">NOTICIAS</a></li>
+        <li><a href="#">CONTATO</a></li>
+    </ul>
+    
+</div>
+
+
 <div class="conteudo">
-	<h1>teste</h1>
+
+
+<div class="slider">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="assets/images/b1.jpg" alt="...">          
+        </div>
+        <div class="item">
+          <img src="assets/images/b2.jpg" alt="...">          
+        </div>
+        <div class="item">
+          <img src="assets/images/b3.jpg" alt="...">          
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</div>
+
+
+<div class="areas-de-atuacao">
+    <div class="container">
+        <div class="row atuacao">
+            <div class="col-md-12 wow fadeInUp">
+                ÁREAS DE ATUAÇÃO
+            </div>                
+        </div>
+
+        <div class="row animated-area">
+            <div class="col-md-12 atuacao-img animated wow fadeInDown" data-animation-delay="0.1s" data-animation="fadeIn">                
+                    <div class="ImageWrapper atuacao-img2">
+                        <a href="">
+                            <img src="assets/images/01.jpg" alt="">
+                            <div class="PStyleH"></div>
+                        </a>
+                        <span class="atuacao-cont">DIREITO EMPRESARIAL</span>
+                    </div> 
+                    
+
+                    <div class="ImageWrapper atuacao-img2">
+                        <a href="">
+                            <img src="assets/images/02.jpg" alt="">
+                            <div class="PStyleH"></div>
+                        </a>
+                        <span class="atuacao-cont">DIREITO TRABALHISTA</span>
+                    </div>
+                    
+
+                    <div class="ImageWrapper atuacao-img2">
+                        <a href="">
+                            <img src="assets/images/03.jpg" alt="">
+                            <div class="PStyleH"></div>
+                        </a>
+                        <span class="atuacao-cont">DIREITO PENAL</span>
+                    </div>
+                    
+
+                    <div class="ImageWrapper atuacao-img2">
+                        <a href="">
+                            <img src="assets/images/04.jpg" alt="">
+                            <div class="PStyleH"></div>
+                        </a>
+                        <span class="atuacao-cont">DIREITO CIVIL</span> 
+                    </div> 
+                    
+
+            </div>
+        </div>
+    </div>
 </div>
 
 
 
 
+<div class="sobre" data-parallax="scroll">         
+    <div class="sobre-content">
+        <h1 class="wow fadeInUp">SOBRE A NEVES & LELIS</h1>
+
+        
+       <div class="sobre-box wow slideInRight">
+        A Neves e Lelis Advocacia surgiu com o objetivo de atender juridicamente na região do triângulo mineiro e estado de Minas Gerais, Uberlândia atualmente é um dos escritórios de referência na região, pois sempre trabalhamos muito próximo de nossos 
+        clientes, defendendo com afinco seus direitos Buscamos propor soluções especificas para cada tipo de cliente, verificando todas as particularidades envolvidas em cada caso, pois equaliza a inovação, a criatividade e a mais elevada técnica jurídica da ...<!--
+        advocacia, contribuindo de forma expressiva para o sucesso de nossos clientes e parceiros. Atendemos nossos clientes e parceiros de forma personalizada e 
+        compromissada, sempre com objetivo de superar as expectativa.-->
+        </div>
+
+
+        <div class="veja-mais">
+            <a href="" class="btn btn-default btn-lg active wow fadeInUp">+ Sobre nós</a>            
+        </div>
+    </div>
+</div>
+
+
+<div class="equipe" data-parallax="scroll">         
+    <div class="equipe-content">
+        <h1 class="wow fadeInUp">CONHEÇA NOSSO TIME</h1>
+
+        <div class="equipe-flex wow slideInRight">
+        
+            <div class="equipe-box">
+                <img src="assets/images/p1.jpg" class="img-circle img-responsive">
+                <span class="equipe-name">Mauro - Acessor</span>
+            </div>
+           
+            <div class="equipe-box">
+                <img src="assets/images/p2.jpg" class="img-circle img-responsive">
+                <span class="equipe-name">Luiza - Atendente</span>
+            </div>
+
+            <div class="equipe-box">
+                <img src="assets/images/p3.jpg" class="img-circle img-responsive">
+                <span class="equipe-name">Sergio - Vendas</span>
+            </div>
+
+            <div class="equipe-box">
+                <img src="assets/images/p4.jpg" class="img-circle img-responsive">
+                <span class="equipe-name">Eduardo - Marketing</span>
+            </div>
+
+            <div class="equipe-box">
+                <img src="assets/images/p5.jpg" class="img-circle img-responsive">
+                <span class="equipe-name">Henrique - HelpDesk</span>
+            </div>
+
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class="contato">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-md-12 contato-titu wow fadeInUp">
+                FALE CONOSCO
+            </div>                
+        </div>
+
+
+
+
+<div class="row">
+    <div class="col-md-6 wow slideInRight">
+
+        <form class="fomulario">
+          <div class="form-group">    
+            <input type="text" class="form-control" placeholder="NOME">    
+          </div>
+
+          <div class="form-group">    
+            <input type="text" class="form-control" placeholder="EMAIL">    
+          </div>
+
+          <div class="form-group">    
+            <input type="text" class="form-control" placeholder="TELEFONE">    
+          </div>
+
+          <div class="form-group">    
+            <textarea class="form-control" rows="4" placeholder="MENSAGEM"></textarea>
+          </div>
+
+          <input type="submit" class="enviar-form" placeholder="ENVIAR"> 
+        </form>
+         
+    </div>
+
+
+    <div class="col-md-1"></div>
+        
+
+    <div class="col-md-5 endereco wow slideInLeft">        
+          <strong>NOSSO ENDEREÇO</strong>
+          <span class="cont-txt">
+          Av. Brasil 2998, Bairro Brasil - Uberlândia MG - 38400-718
+          </span>
+
+          <strong>TELEFONE</strong>
+          <span class="cont-txt">
+            (34) 3211-8548
+          </span>
+
+          <strong>EMAIL</strong><br />
+          <a href="mailto:contato@neveselelisadvocacia.com.br">contato@neveselelisadvocacia.com.br</a>
+
+          <span class="face">
+              <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </span>
+        
+    </div>
+
+</div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6 footer-reg wow slideInDown">
+                <span class="footer-inc">
+                    &copy 2017 - 2017 Neves & Lelis Advogados.
+                </span>
+            </div>
+
+            <div class="col-md-6">
+                <span class="footer-online">
+                    <a href=""><!--<img src="assets/images/online.png">--></a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+
+
 <!--PLUGIN JQUERY-->
+
 <script src="assets/js/jquery.min.js"></script>
 
 <!--PLUGIN BOOTSTRAP-->
@@ -63,15 +346,24 @@
 <script src="assets/js/jquery.slideandswipe.js"></script>
 
 
+<!--PLUGIN PARALLAX-->
+<script src="assets/parallax/parallax.min.js"></script>
+
+<!--PLUGIN WOW-->
+<script type="text/javascript" src="assets/wow/dist/wow.min.js"></script> 
+
+
+
+
 
 <script>
-    //FUNÇÃO DE MENU MOBILE
+    //APARECER MENU MOBILE
     $(document).ready(function() {
         $('.nav').slideAndSwipe();
     });
 
 
-    //FUNÇÃO FIXAR MENU
+    //FIXAR MENU MOBILE
     $(function(){
         if($(window).scrollTop() > $('.conteudo').offset().top){
                 $('.menu').addClass('menu-fixed');
@@ -86,7 +378,41 @@
                 $('.menu').removeClass('menu-fixed');
             }
         });
-    });
+    }); 
+
+
+    //FUNÇÃO FIXAR MENU DESKTOP
+    $(function(){
+        if($(window).scrollTop() > $('.conteudo').offset().top){
+                $('.mainmenu').addClass('menu-fixed');
+            }else{
+                $('.mainmenu').removeClass('menu-fixed');
+            }
+
+        $(window).scroll(function(){            
+            if($(this).scrollTop() > $('.conteudo').offset().top){
+                $('.mainmenu').addClass('menu-fixed');
+            }else{
+                $('.mainmenu').removeClass('menu-fixed');
+            }
+        });
+    }); 
+
+
+    //PARALLAX
+    //$('.sobre').parallax({ 
+       // imageSrc: 'assets/images/b4.jpg',
+       // positionY: 'center'      
+    //});
+
+    //$('.equipe').parallax({ 
+     //   imageSrc: 'assets/images/b5.jpg',
+     //   positionY: 'center'      
+   // });
+
+
+    //INICIA O WOW
+    new WOW().init();
 </script>
 
 

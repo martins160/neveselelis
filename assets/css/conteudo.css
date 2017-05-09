@@ -301,10 +301,14 @@ transition: all 0.2s ease;
 .sobre-content{	
 	font-size: 25px;
 	height: 100%;
+	background-color: rgba(30,50,74,0.7);	
 }
+
+
 
 .sobre-box{
 	padding: 40px 150px;
+	font-weight: 300;
 }
 
 
@@ -319,13 +323,13 @@ transition: all 0.2s ease;
 
 .equipe-content h1{
 	font-size: 50px;
-	padding: 25px 0 40px 0;	
+	padding: 0px 0 70px 0;	
 }
 
 
 .equipe-content{	
 	font-size: 20px;	
-	padding: 70px 15px 100px 15px;	
+	padding: 80px 15px 120px 15px;	
 }
 
 .equipe-content img{

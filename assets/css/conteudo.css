@@ -36,7 +36,7 @@
 
 .sobre{
 	background-image: url(../images/b4.jpg) !important;
-	background-position: center;
+	background-position: center top;
 	background-size: cover;
 	background-attachment: fixed;    
 }
@@ -289,10 +289,11 @@ transition: all 0.2s ease;
 
 .sobre{
 	background-image: url(../images/b4.jpg) !important;
-	background-position: fixed;
+	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;    
 }
+
 
 .sobre-content h1{	
 	font-size: 50px;	
@@ -306,6 +307,16 @@ transition: all 0.2s ease;
 .sobre-box{
 	padding: 40px 150px;
 }
+
+
+.equipe{
+	background-image: url(../images/b5.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed; 
+}
+
+
 
 .equipe-content h1{
 	font-size: 50px;

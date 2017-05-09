@@ -2,6 +2,9 @@
 	width: 100%;
 	background-color: #14293e;
 	padding: 10px 0;
+	background-image: url(../images/bgheader.png);
+    background-repeat: repeat;    
+    background-attachment: fixed;
 }
 
 .footer-inc{

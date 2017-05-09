@@ -1,5 +1,7 @@
 .header{
 	width: 100%;
+
+    background: url(../images/bgheader.png) repeat;
 }
 
 .logo{

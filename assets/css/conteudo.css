@@ -287,6 +287,13 @@ transition: all 0.2s ease;
 	margin: 20px 0 40px 0;
 }
 
+.sobre{
+	background-image: url(../images/b4.jpg) !important;
+	background-position: fixed;
+	background-size: cover;
+	background-attachment: fixed;    
+}
+
 .sobre-content h1{	
 	font-size: 50px;	
 }

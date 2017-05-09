@@ -201,6 +201,14 @@ transition: all 0.2s ease;
 	color: #3a579b;
 }
 
+.fa-facebook:hover{
+	color: #4d73cc;
+}
+
+
+
+
+
 .endereco a{
     color: #333 !important;
     font-size: 15px;

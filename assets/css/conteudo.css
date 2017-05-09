@@ -36,7 +36,7 @@
 
 .sobre{
 	background-image: url(../images/b4.jpg) !important;
-	background-position: fixed;
+	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;    
 }
@@ -87,7 +87,7 @@
 
 .equipe{
 	background-image: url(../images/b5.jpg);
-	background-position: fixed;
+	background-position: center;
 	background-size: cover;
 	background-attachment: fixed; 
 }
@@ -312,9 +312,10 @@ transition: all 0.2s ease;
 	padding: 25px 0 40px 0;	
 }
 
+
 .equipe-content{	
 	font-size: 20px;	
-	padding: 50px 15px 90px 15px;	
+	padding: 70px 15px 100px 15px;	
 }
 
 .equipe-content img{
